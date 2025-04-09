@@ -1,0 +1,69 @@
+/* Base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bill {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Heading */
+.heading_pay {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    background-color: #e0e0e0;
+    flex: 1;
+}
+
+/* Bill Details Section */
+.billdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Table Section */
+.content_b {
+    width: 100%;
+}
+
+.content_b table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+}
+
+.content_b th, .content_b td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.content_b th {
+    background-color: #dcdcdc;
+    font-weight: bold;
+}
+
+/* Payment Section */
+.paythings {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #e8e8e8;
+    min-height: 50px; /* Ensures visibility */
+}

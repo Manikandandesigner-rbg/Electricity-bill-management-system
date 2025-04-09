@@ -1,0 +1,17 @@
+.payment_history{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+.history{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bill-item{
+    border: 3px solid;
+    display: flex;
+    padding: 5px;
+}
